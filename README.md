@@ -1,2 +1,2 @@
-# Learn-JavaScript-Step-by-Step
+# Learn JavaScript Step-by-Step
 Learn JavaScript
