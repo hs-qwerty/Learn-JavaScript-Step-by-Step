@@ -1,0 +1,24 @@
+.container{
+    background: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProjectTop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.test{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.demo{
+    margin-top: 75px;
+    width: 255px;
+    height: 255px;
+    border: 1px solid #000;
+}

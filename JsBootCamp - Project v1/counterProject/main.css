@@ -1,0 +1,37 @@
+.col-md-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.Brdr{
+    border: 1px solid #fff3cd;
+    height: 450px;
+    width: 650px;
+}
+
+.bbbd {
+    height: 100%;
+    width: 100%;
+    padding: 2rem 5rem;
+
+}
+.Brderhead{
+    text-align: center;
+    color: #fff3cd;
+}
+.BrdrPointDv{
+
+    text-align: center;
+    padding: 2rem;
+}
+.BrderPoint{
+   margin: 0 auto;
+}
+.btnLower{
+    margin-top: 2px;
+}
+.btnAdd{
+    margin-top: 2px;
+    display: block;
+}

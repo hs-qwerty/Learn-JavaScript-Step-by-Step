@@ -1,0 +1,45 @@
+.ImageBr{
+    border: 3px solid #005cbf;
+    position: relative;
+    background-image: url("merce.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+.lft{
+    position: absolute;
+    top: 50%;
+    left: -1%;
+    display: block;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #000000;
+    font-size: 25px;
+    color: white;
+    background: black;
+    transform: translate(-25%,-50%);
+}
+.lft p{
+    position: absolute;
+    transform: translate(35%,-10%);
+}
+
+.rght{
+    position: absolute;
+    top: 50%;
+    right: -1%;
+    display: block;
+    height: 35px;
+    width: 35px;
+    border: 1px solid #000000;
+    font-size: 25px;
+    color: white;
+    background: black;
+    transform: translate(25%,-25%);
+}
+.rght p  {
+     position: absolute;
+    transform: translate(40%,-10%);
+}

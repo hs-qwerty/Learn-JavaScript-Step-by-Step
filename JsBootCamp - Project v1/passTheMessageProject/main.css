@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 100vh;
+    background-color: darkgrey;
+}
+
+.row{
+    height: 100%;
+    position: relative;
+}
+
+.formDiv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: lightgrey;
+    width: 450px;
+}
+
+.icerikDiv{
+    text-align: center;
+
+}
+
+.clasH5{
+    font-size: x-large;
+    padding: 1rem;
+    height: 24px;
+}
+
+.formClas{
+    border: 1px solid black;
+    height: 5rem;
+    padding: 1rem;
+}
+.formControl{
+    display: block;
+    height: 45px;
+    width: 350px;
+    margin: 0 auto;
+}
+
+.formBtn{
+    margin: 1rem 3rem;
+    display: block;
+    height: 25px;
+    width: 55px;
+
+}
+
+.deneme{
+    display: block;
+
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    background-color: dimgray;
+}
