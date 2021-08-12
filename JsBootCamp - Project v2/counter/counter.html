@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootcamp - Project v1</title>
+    <link rel="stylesheet" href="../const/bootstrap.min.css">
+    <link rel="stylesheet" href="../const/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div class="container">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark mb-5">
+        <a class="navbar-brand" href="#">Bootcamp</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"> Project - v1</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+
+    <main class="mt-5" role="main">
+
+        <!-- Main jumbotron for a primary marketing message or call to action -->
+        <div class="jumbotron">
+            <div class="container">
+                <h1 class="display-3" style="text-align: center;">Counter : </h1>
+                <p id="value" style="text-align: center; font-size: 72px;">0</p>
+
+               <div style="display: flex;">
+                   <p class="mt-5" style="margin-right: 15px;"><a class="btn btn-warning btn-lg decrease" href="#" role="button">DECREASE</a></p>
+
+                   <p class="mt-5" style="margin-right: 15px"><a class="btn btn-dark btn-lg reset" href="#" role="button">RESET</a></p>
+
+                   <p class="mt-5" style="margin-right: 15px;"><a class="btn btn-primary btn-lg incrase" href="#" role="button">INCREASE</a></p>
+
+               </div>
+            </div>
+        </div>
+
+
+
+
+
+    </main>
+</div>
+
+</body>
+<script src="../const/jquery-3.5.1.slim.min.js"></script>
+<script src="../const/popper.min.js"></script>
+<script src="../const/bootstrap.min.js"></script>
+<script src="counter.js"></script>
+</html>
